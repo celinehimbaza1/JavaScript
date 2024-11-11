@@ -1,0 +1,7 @@
+Using JavaScript, write a program that displays a range of marks based on a student’s grade. Use if conditions to check for each grade and output the corresponding mark range. Here are the grade ranges:
+
+Grade A: 90-100
+Grade B: 80-89
+Grade C: 70-79
+Grade D: 60-69
+Grade F: Below 60
