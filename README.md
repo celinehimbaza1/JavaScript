@@ -19,7 +19,7 @@ let studentName= prompt('Enter the first student name :')
 let marks = prompt('Enter student mark :')
 let grade
 
-    // console.log(marks)
+   
 
 if (marks >= 80 && marks <=100){
 grade = 'A'
