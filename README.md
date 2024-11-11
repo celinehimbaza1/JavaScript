@@ -1,6 +1,6 @@
 # Student grade challenge
 
-Hello, this is a Javascript program that displays a range of marks based on a student’s grade.
+Hello, this is a Javascript program that displays a range of 3 student marks based on a student’s grade.
 Use if conditions to check for each grade and output the corresponding mark range.
 
 # What you will need to run the program:intallation
