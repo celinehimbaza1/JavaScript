@@ -1,4 +1,4 @@
-let f = 32
+let f = 36
 let c= (f - 32) / 1.8
 let kel= (f + 459.67) * 5 / 9
 
