@@ -1,7 +1,7 @@
 // logical And operator (&&) execute only it 2 conditions are true.otherwise false
 // logical Or operator (||) execute if atleast one condition is true. otherwise false
 
-let temp =7
+let temp =9
 
 if (temp >= 50 && temp <= 80){
     console.log('pretty nice!')
