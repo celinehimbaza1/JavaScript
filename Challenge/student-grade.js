@@ -61,7 +61,7 @@ if (mark3 >= 80 && marks <= 100) {
 } else if (mark3 >= 0 && marks < 50) {
   grade3 = "Fail";
 } else {
-  grade3 = "Unclassified";
+  grade3 = "Unknown";
 }
 
 console.log("Student grade is:" + grade3);
