@@ -15,7 +15,7 @@ let square = function (num){
     let result= num * num
     return result
 }
- let value1 = square(5)
+ let value1 = square(3)
  let value2 = square(4)
 
  console.log(value1)

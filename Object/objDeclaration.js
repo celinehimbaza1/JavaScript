@@ -10,7 +10,7 @@ let person = {
 };
 
 //Changing name we use  Dot notation
-person.name='Marry'
+person.name='Mary'
 
 // Bracket notation
 person['name']='Mary'
