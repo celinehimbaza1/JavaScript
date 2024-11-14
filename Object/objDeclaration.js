@@ -5,12 +5,12 @@
 //Object declaration
 
 let person = {
-    name:'Celine',
+    name:'Rose',
     age: 27
 };
 
 //Changing name we use  Dot notation
-person.name='Mary'
+person.name='Marry'
 
 // Bracket notation
 person['name']='Mary'
