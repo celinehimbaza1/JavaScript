@@ -17,7 +17,7 @@ function getGrade(marks) {
 }
 
 function calculateGrade() {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i <= 5; i++) {
     let marks = prompt("enter student mark:");
     let grade = getGrade(marks);
     console.log(`Marks: ${marks}, Grade: ${grade}`);
