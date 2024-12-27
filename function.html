@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <h2>Function in JavaScript</h2>
+    <p id="demo"></p>
+<script>
+    function product(a,b){
+       return a*b;
+   
+
+    }
+     function sum(a,b){
+        return a+b;
+        
+     }
+//      let num1=2;
+//      let num2=4;
+// let pro=product(num1,num2)
+// let summation=sum(num1,num2)
+//     document.getElementById('demo').innerHTML= 'the product is:' + pro + ' ' + 'The sum is:' +summation
+   
+    // an other way:
+
+    let num1 = 2;
+    let num2 = 4;
+    let pro = product(num1, num2);
+    let summation = sum(num1, num2);
+
+    // Combine the results into a single string
+    let result = 'The product is: ' + pro + '<br>' + 'The sum is: ' + summation;
+
+    // Set the combined result as the innerHTML of the demo element
+    document.getElementById('demo').innerHTML = result;
+
+ 
+</script>
+</body>
+</html>
