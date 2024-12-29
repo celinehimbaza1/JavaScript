@@ -15,4 +15,4 @@ const person={
     weight:59,
     age:10
 }
-console.log('my name is ' + person.name + ' ' + 'i have' + ' ' +person.age + ' ' + 'years old')
+console.log('my name is ' + person.name + ' ' + 'i have' + ' ' +person['age'] + ' ' + 'years old')
