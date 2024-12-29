@@ -8,14 +8,26 @@
 <body>
     <h2>Object example</h2>
     <p id="demo"></p>
+    <p id="demo1"></p>
     <script>
         const person={
-            name:'celine',
+            fname:'celine',
+            lname:'himbaza',
             address:'kanombe',
             weight:59,
-            age:10
-        }
-        document.getElementById('demo').innerHTML='my name is:' +person.name + ' ' + 'I have' + ' ' + person['age'] + ' ' + 'Years old'
+            age:10,
+            fullname:function(){
+            return (this.fname + ' ' + this.lname).toUpperCase();
+    }
+
+        };
+
+        person.height= 1.5
+        // delete person.age
+        document.getElementById('demo').innerHTML='my name is:' +person.fname + ' ' + 'I have' + ' ' + person['age'] + ' ' + 'Years old and ' + person.height+ 'height'
+        
+    document.getElementById('demo1').innerHTML= 'my name is ' +person.fullname();
     </script>
+    
 </body>
 </html>
