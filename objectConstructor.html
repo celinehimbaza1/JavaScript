@@ -16,12 +16,15 @@
         this.lName=last;
         this.age=age;
         this.eyecolor=eye
+        
     }
     //creating object
      const myFather= new Person('frank','Dushime',64,'white')
      const myMother= new Person('Beni','Kanguyeneze',64,'white')
-     document.getElementById('demo').innerHTML='My father is called ' + myFather.fName +' ' + 'he is ' + myFather.age+ ' '+ 'years old.'
-   document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.fName + ' ' + myMother.lName
+     myFather.personality='Rwandan'
+     document.getElementById('demo').innerHTML='My father is called ' + myFather.fName +' ' + 'he is ' + myFather.age+ ' '+ 'years old.' +'my fathr is ' +myFather.personality 
+     document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.fName + ' ' + myMother.lName
+
    </script>
 </body>
 </html>
