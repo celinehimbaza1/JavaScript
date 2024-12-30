@@ -15,16 +15,33 @@
         this.fName=first;
         this.lName=last;
         this.age=age;
-        this.eyecolor=eye
+        this.eyecolor=
+        this.fullName= function(){
+            return this.fName + ' ' + this.lName
+        }
         
     }
     //creating object
      const myFather= new Person('frank','Dushime',64,'white')
      const myMother= new Person('Beni','Kanguyeneze',64,'white')
      myFather.personality='Rwandan'
-     document.getElementById('demo').innerHTML='My father is called ' + myFather.fName +' ' + 'he is ' + myFather.age+ ' '+ 'years old.' +'my fathr is ' +myFather.personality 
-     document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.fName + ' ' + myMother.lName
+     document.getElementById('demo').innerHTML='My father is called ' + myFather.fullName() +' ' + 'he is ' + myFather.age+ ' '+ 'years old.' +'my fathr is ' +myFather.personality 
+    //  document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.fName + ' ' + myMother.lName
+//adding a method to an object
+myMother.changeName= function(name){
+    this.fName=name
+}
+myMother.changeName='celine'
+document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.changeName
 
    </script>
+   <pre>Did You Know?
+    Use object literals {} instead of new Object().
+    
+    Use array literals [] instead of new Array().
+    
+    Use pattern literals /()/ instead of new RegExp().
+    
+    Use function expressions () {} instead of new Function().</pre>
 </body>
 </html>
