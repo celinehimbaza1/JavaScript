@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Constructor</title>
+</head>
+<body>
+   <h2>Object constructor</h2> 
+   <p id="demo"></p>
+   <script>
+    //object constructor
+    function Person (first,last,age,eye){
+        this.fName=first;
+        this.lName=last;
+        this.age=age;
+        this.eyecolor=eye
+    }
+    //creating object
+     const myFather= new Person('frank','Dushime',64,'white')
+     document.getElementById('demo').innerHTML='My father is called ' + myFather.fName +' ' + 'he is ' + myFather.age+ ' '+ 'years old.'
+   </script>
+</body>
+</html>
