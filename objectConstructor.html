@@ -8,6 +8,7 @@
 <body>
    <h2>Object constructor</h2> 
    <p id="demo"></p>
+   <p id="demo1"></p>
    <script>
     //object constructor
     function Person (first,last,age,eye){
@@ -18,7 +19,9 @@
     }
     //creating object
      const myFather= new Person('frank','Dushime',64,'white')
+     const myMother= new Person('Beni','Kanguyeneze',64,'white')
      document.getElementById('demo').innerHTML='My father is called ' + myFather.fName +' ' + 'he is ' + myFather.age+ ' '+ 'years old.'
+   document.getElementById('demo1').innerHTML= 'My mother is called ' +myMother.fName + ' ' + myMother.lName
    </script>
 </body>
 </html>
