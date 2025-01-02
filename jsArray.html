@@ -16,17 +16,37 @@
         // let car3='hummer'
         // document.getElementById('demo').innerHTML= 'My cars are: ' +ca1 +' ' +car2 + ' ' +car3
         const cars=['Volvo','Hummer','Benz']
+
+        cars[1]='Rav4'
         
         //accessig an array
         document.getElementById('demo').innerHTML='My car types are: ' +cars
+        //array lenght is used to return the numbers of element:cars.length
         
         //accessing an array element reffering to its index value
 
-        document.getElementById('demo1').innerHTML= 'This car is : ' + cars[1]
+        document.getElementById('demo1').innerHTML= 'This car is expensive: ' + cars[1]
+     
     </script>
     <p>An array can hold many values under a single name, and you can access the values by referring to an index number.</p>
     <p>Using an array literal is the esiest way to create Javascript array</p>
     <p>Syntax:Const arrayName= [item1,item2,item3,...] and it is a common practice to declare an array with the const keyword</p>
 <p>You can access an array element by referring to its index number</p>
+<pre>Arrays are Objects
+    Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+    
+    But, JavaScript arrays are best described as arrays.
+    
+    Arrays use numbers to access its "elements". In this example, person[0] 
+    Objects use names to access its "members". In this example, person.firstName
+</pre>
+<pre> <br>
+    Array Elements Can Be Objects
+JavaScript variables can be objects. Arrays are special kinds of objects.
+
+Because of this, you can have variables of different types in the same Array.
+
+You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array
+</pre>
 </body>
 </html>
