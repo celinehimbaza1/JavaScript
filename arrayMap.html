@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Array Map</h1> 
+   <p>JavaScript Array map()
+    The map() method creates a new array by performing a function on each array element.
+    
+    The map() method does not execute the function for array elements without values.
+    
+    The map() method does not change the original array.</p>
+    <p id="demo"></p>
+    <script>
+        const numbers=[2,12,3,4]
+        const res=numbers.map(myFunction);
+       
+        function myFunction(value,index,array){
+            return value * 2
+        }
+
+        document.getElementById('demo').innerHTML= res
+
+    </script>
+</body>
+</html>
