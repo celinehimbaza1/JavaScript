@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array Reduce</h1>
+    <p>The reduce() method runs a function on each array element to produce (reduce it to) a single value</p>
+
+    <p>Find the sum of an array</p>
+    <p id="sum"></p>
+    <script>
+        const array= [1,2,3,4,5]
+let sum= array.reduce(addition)
+function addition(number,value,array){
+    return number + value;
+
+}
+document.getElementById('sum').innerHTML='The sum is: ' + sum
+    </script>
+</body>
+</html>
